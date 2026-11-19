@@ -8,11 +8,10 @@ class uwu(discord.Client):
         super().__init__(*args, **kwargs)
         self.uwu_enabled = True
         self.actions = [
-            "*boops your nose*",
+	    "*boops your nose*",
             "*nuzzles*",
             "*blushes*",
             "*wags tail*",
-            "*sweats*",
             "*giggles*",
             "*pounces on you*"
         ]
